@@ -22,7 +22,11 @@ Route::get('/home', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about',[
+        "name" => "EKO PRAMONO",
+        "email" => "ekopram@yahoo.com",
+        "images" => "chaewon.jpg"
+    ]);
 });
 
 Route::get('/post', function () {
