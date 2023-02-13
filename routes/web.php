@@ -18,17 +18,22 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('home',[
+        "title" => "home"
+    ]);
 });
 
 Route::get('/about', function () {
     return view('about',[
+        "title" => "about",
         "name" => "EKO PRAMONO",
         "email" => "ekopram@yahoo.com",
         "images" => "chaewon.jpg"
     ]);
 });
 
-Route::get('/post', function () {
-    return view('post');
+Route::get('/blog', function () {
+    return view('post', [
+        "title" => 'post'
+    ]);
 });
