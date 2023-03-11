@@ -22,6 +22,7 @@ return array(
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Requests\\StorePostRequest' => $baseDir . '/app/Http/Requests/StorePostRequest.php',
     'App\\Http\\Requests\\UpdatePostRequest' => $baseDir . '/app/Http/Requests/UpdatePostRequest.php',
+    'App\\Models\\Category' => $baseDir . '/app/Models/Category.php',
     'App\\Models\\Post' => $baseDir . '/app/Models/Post.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Policies\\PostPolicy' => $baseDir . '/app/Policies/PostPolicy.php',

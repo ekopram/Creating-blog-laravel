@@ -525,6 +525,7 @@ class ComposerStaticInit11b90b9b4e44bcb61513e5499642d43b
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\StorePostRequest' => __DIR__ . '/../..' . '/app/Http/Requests/StorePostRequest.php',
         'App\\Http\\Requests\\UpdatePostRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdatePostRequest.php',
+        'App\\Models\\Category' => __DIR__ . '/../..' . '/app/Models/Category.php',
         'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Policies\\PostPolicy' => __DIR__ . '/../..' . '/app/Policies/PostPolicy.php',
