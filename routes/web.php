@@ -27,7 +27,8 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('home', [
-        "title" => "home"
+        "title" => "home",
+        'active' => 'home'
     ]);
 });
 
@@ -36,7 +37,8 @@ Route::get('/about', function () {
         "title" => "about",
         "name" => "EKO PRAMONO",
         "email" => "ekopram@yahoo.com",
-        "images" => "chaewon.jpg"
+        "images" => "chaewon.jpg",
+        'active' => 'categories'
     ]);
 });
 
