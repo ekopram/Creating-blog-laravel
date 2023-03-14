@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/style.css">
 
 
-    <title>WPU Blog | {{ $title }}</title>
+    <title>EKO Blog | {{ $title }}</title>
 </head>
 
 <body>
